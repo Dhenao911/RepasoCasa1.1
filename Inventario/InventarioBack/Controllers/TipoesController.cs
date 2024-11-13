@@ -103,6 +103,7 @@ namespace InventarioBack.Controllers
         private bool TipoExists(int id)
         {
             return _context.Tipos.Any(e => e.Id == id);
+            //kjsfs
         }
     }
 }
